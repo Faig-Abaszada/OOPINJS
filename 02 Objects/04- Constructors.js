@@ -18,7 +18,8 @@ function Circle(radius) {
     this.draw = function draw() {
         console.log('Draw')
     };
-
+    // this.radius === let a = {}  a.radius  -> new opertaor bu shekilde object yaradir ve this ona access edir
+    // return this;  -> retun etmirik amma bele dushune bilerik. ( underhood olaraq )
     // buradaki this- consola yazsan  Circle{} objectini verir ve icindeki draw ve radiusu goreceksen.
 };
 
