@@ -29,3 +29,12 @@ When we use the "new operator 3 thing happen":
     2. Then it will set "this" operator statement to point to the empty object;
     3. Finally the "new" operator will return the object from the function.
 */
+
+/*
+      What we learned ?
+        Object create etmeyin 3 yolu var:
+         1. Onject literals syntax-i istifade edilerek -  let a = { ... }
+         2. Factories - function createCircle (radius) { return { radius  }  }   call -> const circle1 = createCircle(1)
+         3. Constructors -  function Circle(radius) { this.radius = raius  }    call -> const circle = new Circle(1)
+
+ */
