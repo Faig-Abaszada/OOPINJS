@@ -1,4 +1,4 @@
-// 02- Object Literals
+// 02- Object Literals - let a = { ... };
 
 /*
 In javascript objects are collections of key value pairs.
