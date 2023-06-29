@@ -41,5 +41,5 @@ When we use the "new operator 3 thing happen":
          1. Onject literals syntax-i istifade edilerek -  let a = { ... }
          2. Factories - function createCircle (radius) { return { radius  }  }   call -> const circle1 = createCircle(1)
          3. Constructors -  function Circle(radius) { this.radius = raius  }    call -> const circle = new Circle(1)
-
+        Factories and Constructor ferqleri nelerdir ? - Xususi hecne yoxdur , ikiside regular funksiyalardir.
  */
