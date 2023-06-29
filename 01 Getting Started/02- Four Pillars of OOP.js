@@ -18,6 +18,7 @@ and functions (which are called properties and methods when they are inside obje
 */
 
 // Encapsulation
+// Brings together data and the methods which operate on data in a single unit.
 
 // Procedural Programming
 // This is an implementation to calculate the wage of an employee. The variable that store the data and the function that operates in that data.
