@@ -1,4 +1,5 @@
 // 03 - Factories
+// One function return an object for given arguments.
 
 /*
 In the last lesson we use the object literal syntax to create ann object. But in case we need to create more than one of teh same object.
