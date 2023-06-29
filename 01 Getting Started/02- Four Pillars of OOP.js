@@ -11,6 +11,10 @@ Before Object Orientated Programming, there was Procedural Programming.
 In Procedural Programming paradigm a program is divided into set of Function. We have data stored in a bunch of variables and Functions that operate in those variables.
 In OOP we combine a group of functions and variables into a unit, this unit is called an Object.
 The variables are called the properties and the functions methods.
+
+by faik:
+An object is a collection of related data and/or functionality. These usually consist of several variables
+and functions (which are called properties and methods when they are inside objects).
 */
 
 // Encapsulation
@@ -79,7 +83,7 @@ Animal.prototype.legs = 4;
 Dog.prototype = new Animal();
 
 Dog.prototype.makeNoise = function(){
-	console.log("Woof woof");  
+	console.log("Woof woof");
 };
 
 var animal = new Animal();
