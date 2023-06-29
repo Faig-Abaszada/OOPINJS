@@ -18,6 +18,8 @@ function Circle(radius) {
     this.draw = function draw() {
         console.log('Draw')
     };
+
+    // buradaki this- consola yazsan  Circle{} objectini verir ve icindeki draw ve radiusu goreceksen.
 };
 
 // To create a new object using this function
@@ -25,9 +27,11 @@ const circle = new Circle(1)
 
 /*
 When we use the "new operator 3 thing happen":
+(Eger biz "new" operatorunu unudarsaq this gedib globala muraciet edecek)
     1. This operator creates an empty JavaScript object;
     2. Then it will set "this" operator statement to point to the empty object;
     3. Finally the "new" operator will return the object from the function.
+
 */
 
 /*
