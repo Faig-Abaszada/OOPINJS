@@ -68,6 +68,10 @@ Polymorphism
 Means we can override a method or property inherited from the parent object, so it perform a different action in the child object.
 W might have a base prototype that is called Animal which defines makeNoise.
 Then every type extending from that prototype can override to do their own custom work.
+
+by faik:
+The polymorphism is a core concept of an object-oriented paradigm that provides a way to perform a single action in different forms.
+It provides an ability to call the same method on different JavaScript objects.
 */
 // Let's set up an Animal and Dog example
 function Animal(){}
