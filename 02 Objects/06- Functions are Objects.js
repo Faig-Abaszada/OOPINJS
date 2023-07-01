@@ -15,7 +15,12 @@ console.log(Circle.name); // This property returns the name of the function.
 
 console.log(Circle.length); // This property returns the number of arguments.
 
-console.log(Circle.constructor); // This returns the 'Function()' constructor that was used when we create a literal function. JavaScript uses that constructor to crete this object.
+// # Onceki dersde dedikki her objection contructor property-si vardir. Ve bu constructor bu objecti yaradan funksiyaya referens edir.
+// # Burada maraqli bir meqam var, bu objecti kimin yaratdigini dushunursen ? :)
+// #
+console.log(Circle.constructor); // This returns the 'Function()' constructor that was used
+                                 // when we create a literal function. JavaScript uses
+                                 // that constructor to crete this object.
 // Like this:
 const Circle1 = new Function('radius', `
 this.radius = radius;
