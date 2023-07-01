@@ -59,9 +59,21 @@ const circleFunctionWay = new Circle1(1);
 // const circleConstructorWay = new Circle(1);
 // ---------------------------------------------------------
 
-Circle.call({}, 1) // arguments as explicitly
-                   // With the "call()" method we can call a function,
-                   // as the first argument we pass an empty object, and then the following arguments explicitly
+Circle.call({}, 1)
+/*
+Arguments as explicitly
+With the "call()" method we can call a function,
+as the first argument we pass an empty object, and then the following arguments explicitly.
+
+- Bunlar eyni expressionlardir Circle.call({}, 1) <===> const a = new Circle(1);
+  Ne vaxt ki biz new operatorunu istifade edirik daxili olaraq bosh object yaradir {}, ve birici argument olaraq call({})- metoduna oturur
+  Və bu obyekt 'this' üçün konteksti müəyyən edir. Belelikle 'this' bu objecte istinad edəcək.
+  Onceki dersde demisdik eger new operatorunu istifade etmesek new Circel() deyil sadece Circle() desek bu gedib
+  window-a istinad edecek , yaniki bele tesevvur ede bilersiz Circle.call(window, 1)
+
+*/
+
+// Diger metod ise budur ,  call-dan ferqleri sadcee argumentin array ile verile bilmesidir.
 Circle.apply({}, [1, 2])  // arguments as an array
                           // With the "apply()" method, it works the same way as the call but we pass the arguments as an array.
 
