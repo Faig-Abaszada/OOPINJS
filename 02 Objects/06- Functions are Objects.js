@@ -59,8 +59,11 @@ const circleFunctionWay = new Circle1(1);
 // const circleConstructorWay = new Circle(1);
 // ---------------------------------------------------------
 
-Circle.call({}, 1) // With the "call()" method we can call a function, as the first argument we pass an empty object, and then the following arguments explicitly
-Circle.apply({}, [1, 2]) // With the "apply()" method, it works the same way as the call but we pass the arguments as an array.
+Circle.call({}, 1) // arguments as explicitly
+                   // With the "call()" method we can call a function,
+                   // as the first argument we pass an empty object, and then the following arguments explicitly
+Circle.apply({}, [1, 2])  // arguments as an array
+                          // With the "apply()" method, it works the same way as the call but we pass the arguments as an array.
 
 // Using the call or apply method is the same as the following code:
 // const circle = new Circle(1)
