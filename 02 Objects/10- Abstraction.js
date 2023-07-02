@@ -1,6 +1,7 @@
 // 10 - Abstraction
 // Mesele sadece bezi property ve methodlarin primave olmamasinin tehlukesinden izah vermekdir
 // Novbeti dersde bunun qarshisini almagi gosterecek.
+// Hide the details , Show the essentials
 
 function Circle(radius) {
   this.radius = radius;
