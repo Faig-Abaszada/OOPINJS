@@ -1,5 +1,5 @@
 // 11- Private Properties and Methods
-// sadece "this" evezine property-ni deyisken kimi teyin edirik let ve ya const olaraq.
+// Sadece "this" evezine property-ni deyisken kimi teyin edirik let ve ya const olaraq.
 
 // To implement Abstraction in the object we remove the "this" keyword and replace it for a variable
 function Circle(radius) {
