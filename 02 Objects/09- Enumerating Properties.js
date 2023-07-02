@@ -16,7 +16,7 @@ const circle = {
 };
 
 // Using the for..in loop to get the properties and values of an object
-// #1 only access key with loop
+// #1 only access key with loop || best way 1
 for (let key in circle) { // in_loop with OBJECT returns keys, with ARRAY returns index numbers
   console.log(key, circle[key]);
 }
@@ -29,7 +29,7 @@ for (let key of Object.keys(circle)) { // of_loop with ARRAY returns values
 // #1 ve #2 eyni sheylerdir.
 
 
-// #3 access {key and value}
+// #3 access {key and value} || best way 2
 for (let entry of Object.entries(circle)) {
   // The "Object.entries()" method will return an array with the object key value pair.
   console.log(entry);
