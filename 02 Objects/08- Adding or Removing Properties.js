@@ -23,6 +23,7 @@ console.log(circle);
 // Or if the property as special characters like spaces or dashes -.
 const propertyName = "location";
 console.log(circle[propertyName]);
+// console.log(circle.center-location); bu shekilde bir basha access mumkun deyil, bu kimi property-e access ucun [] - istifade olunmalidir.
 
 
 // We can also delete properties. For example if we want to send the user object to the client, but properties like credit card info must not be sent.
