@@ -22,6 +22,7 @@ Setters are most often used in conjunction with getters to create a type of pseu
 It is not possible to simultaneously have a setter on a property that holds an actual value.
 */
 
+// #WAY 1 - DIRECTLY IN OBJECT
 const person = {
   firstName: "Miguel",
   lastName: "Pimenta",
@@ -61,6 +62,7 @@ descriptor
 The descriptor for the property being defined or modified.
 */
 
+// #WAY 2 - DIRECTLY IN CONSTRUCTOR FUNCTION
 function Circle(radius) {
   let color = "red"; // Because were we are using a variable, instead of the "this" keyword, color it is not a property from this object, so it is not accessible from the outside. It is only a variable with local scope to this function.
   this.radius = radius;
@@ -71,6 +73,24 @@ function Circle(radius) {
     console.log("Draw");
   };
 
+    /*
+    Burada  bizim cosntructor icinde private defaultLocation deyishkenimiz var.
+    Eger bu deyiskeni app -da hardasa gostermek istesem nece edecem?
+    ve bu deyishkene circle.defaultLocation deyib cata bilmirik , bes nece?
+
+      Dirty way
+      this.getDefaultLocation = function () {
+          return defaultLocation;
+      }
+
+      circle.getDefaultLocation(); -> coldende bu shekilde cata bilerdik amma bu syntaxi sevmirem!
+      circle.defaulLocation kimi catmaq daha gozel olardi! yani get olmadan.
+
+      ve bunu set etmek olmasin yalniz oxumaq olsun cagirib gostermek kimi bir shey bunu nece edeceyimiz gorek!
+      Object.defineProperty() mtodunu istfade edeceyik
+    */
+
+  // Beauty way : Object.defineProperty
   Object.defineProperty(this, 'defaultLocation', {
     get: () => {
       return defaultLocation;
@@ -84,8 +104,12 @@ function Circle(radius) {
   });
 }
 
+
 const myCircle = new Circle(10);
 console.log(myCircle.defaultLocation);
 
 myCircle.defaultLocation = {x: 1, y: 1 };
 console.log(myCircle.defaultLocation);
+
+
+
