@@ -1,5 +1,24 @@
 # 01- Inheritance
 
+
+### Bu dersde geldikde çox qısa xülasə ilə izah:
+- ilk olaraq şəkilə bax və nə olduğunu yadına sal.
+    - Bir circle classimiz var ve bu classin icinde muxtelif
+      ComputeOptimumLocation metodumuz var ve tesevvur edekki sabah biz
+      Square classini elave etmek istedik ama bu class hemde eynen cicle
+      classindaki hemin metoda ehtiyacimiz var. Bu halda biz yene bir
+      Square class-i yaratmaliyiq ve eynen hemin metodu da
+      yeniden yaratmaliyiq ama biz tekrarciliq itemirik. Ve burada devreye
+      İnheritence girir.
+    - İnheritance ucun ne etmeliyik?- bir Shape classi yaradiriq
+      ve bu metodu icine qoyuruq.ve Circle, Square classlari bu metodu
+      Shape classindan miras alir.
+      - Burada classlarimiz dedik ama bilirkki Javascriptde classlar yoxdur 
+      Objectimiz var. Ve burada Prototypical Inheritence devreye girir.
+      Ve buradan anlamaq olarki bizim iki cur inheritance-miz var, 
+      classical ve prototypical. Classical inheritance class yoludur
+      JSde bu yol yoxdur evezine proto prototypical inheritance var. 
+
 ## Inheritance
 Here is an example. In the last section, we defined this circle object with this method. ComputerOptimumLocation.
 Now for this discussion let's imagine here we're working with a class. So let's imagine circle is a class, and not an object.
@@ -36,4 +55,5 @@ Inheritance terms:
 In JavaScript we do not have classes we have objects, thats when Prototypical Inheritance comes into place.
 So essentially, we have two types of inheritance, classical and prototypical.
 Classical inheritance is class way but In JavaScript we do not have classes we have objects.
+
 
