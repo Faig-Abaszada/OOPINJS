@@ -1,5 +1,8 @@
 02- Prototypes and Prototypical Inheritance
 
+Circle ve Square objectlerimiz var ve bu objectler bir parent shape objectden method ve property-leri alirlar.
+Ve bu bir inheritance-dir.
+Bu inheritance-ni js objectleri vasitesi ile nece ede bilerik.
 To implement inheritance in JavaScript objects following the example:
 
 ![Prototypical Inheritance](./images/02-01.png "Prototypical Inheritance")
