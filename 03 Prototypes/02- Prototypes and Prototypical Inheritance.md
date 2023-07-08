@@ -3,7 +3,6 @@
 Circle ve Square objectlerimiz var ve bu objectler bir parent shape objectden method ve property-leri alirlar.
 Ve bu bir inheritance-dir.
 Bu inheritance-ni js objectleri vasitesi ile nece ede bilerik.
-To implement inheritance in JavaScript objects following the example:
 
 ![Prototypical Inheritance](./images/02-01.png "Prototypical Inheritance")
 
@@ -45,4 +44,6 @@ A prototype is just a regular object in memory.
 
 
 ### Bu dersde geldikde çox qısa xülasə ilə izah:
-- 
+- Prototype sadece bir parentdir.
+- Prototype sadece normal bir objectdir. Bunda xüsusi bir şey yoxdur.
+  Hər bir objectin bir prototype(parent)-i var. (Root object-dən başqa)
