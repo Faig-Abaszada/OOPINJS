@@ -1,20 +1,21 @@
 # 01- Inheritance
 
 ## Inheritance
-
-Inheritance lets one object acquire the properties and methods of another object or of the Parent Object.
-And this makes it easy to reuse code in different.
-
-Here is an example. In the last section, we defined this circle object with this method. ComputerOptimumLocation. 
+Here is an example. In the last section, we defined this circle object with this method. ComputerOptimumLocation.
 Now for this discussion let's imagine here we're working with a class. So let's imagine circle is a class, and not an object.
 I want to explain inheritance in these classical (class way) terms.
 So we have this circle class with one computeOptimumLocation method. Let's imagine tomorrow we're going to add another class
-to our application called square. And square also needs this computeOptimumLocation method. 
-For now let's imagine the implementation of this object is exactly the same across these two different classes, 
+to our application called square. And square also needs this computeOptimumLocation method.
+For now let's imagine the implementation of this object is exactly the same across these two different classes,
 you don't want to repeat this implementation.
 Because if there is a bug in this application, you have to fix it in multiple places. Or if we decide to change the implementation
-So that's when inheritance comes to the rescue. We can define a new class called Shape, put this method there, 
+So that's when inheritance comes to the rescue. We can define a new class called Shape, put this method there,
 and have circle and square inherit this method, of the shape of the class.
+
+Summmary:
+
+Inheritance lets one object acquire the properties and methods of another object or of the Parent Object.
+And this makes it easy to reuse code in different.
 
 If we have properties and method that are common to several Objects, we can define a general Object and theses objects will inherit from the general Object.
 
