@@ -3,7 +3,7 @@
 
 ### Bu dersde geldikde çox qısa xülasə ilə izah:
 - ilk olaraq şəkilə bax və nə olduğunu yadına sal.
-    - Bir circle classimiz var ve bu classin icinde muxtelif
+    - Bir circle classimiz var ve bu classin icinde
       ComputeOptimumLocation metodumuz var ve tesevvur edekki sabah biz
       Square classini elave etmek istedik ama bu class hemde eynen cicle
       classindaki hemin metoda ehtiyacimiz var. Bu halda biz yene bir
@@ -13,11 +13,14 @@
     - İnheritance ucun ne etmeliyik?- bir Shape classi yaradiriq
       ve bu metodu icine qoyuruq.ve Circle, Square classlari bu metodu
       Shape classindan miras alir.
-      - Burada classlarimiz dedik ama bilirkki Javascriptde classlar yoxdur 
-      Objectimiz var. Ve burada Prototypical Inheritence devreye girir.
+      Burada classlarimiz dedik ama bilirkki Javascriptde classlar yoxdur 
+      Objectimiz var. Bes classlar yoxdursa biz Javascriptde yalniz 
+      objectlerleri istifade ederek inheritance-ni nece heyata kecirek? - 
+      mehz Burada Prototypical Inheritence devreye girir.
       Ve buradan anlamaq olarki bizim iki cur inheritance-miz var, 
       classical ve prototypical. Classical inheritance class yoludur
       JSde bu yol yoxdur evezine proto prototypical inheritance var. 
+    - Tetbiqi novbeti muhazirede...
 
 ## Inheritance
 Here is an example. In the last section, we defined this circle object with this method. ComputerOptimumLocation.

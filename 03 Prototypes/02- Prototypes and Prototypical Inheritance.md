@@ -42,3 +42,7 @@ To get the Prototype of an object we can use: `Object.getPrototypeOf(x);`
 When we call a method in an object JavaScript will start looking for that method in the object it self. If we can't find it will go all the way up to the root object we called objectBase.
 
 A prototype is just a regular object in memory.
+
+
+### Bu dersde geldikde çox qısa xülasə ilə izah:
+- 
