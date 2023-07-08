@@ -1,5 +1,13 @@
 02- Prototypes and Prototypical Inheritance
 
+### Bu dersde geldikde çox qısa xülasə ilə izah:
+- Prototype sadece bir parentdir.
+- Prototype sadece normal bir objectdir. Bunda xüsusi bir şey yoxdur.
+  Hər bir objectin bir prototype(parent)-i var (Root object-dən başqa).
+  Ve  Bu object prototipində tapdığımız bütün üzvləri miras alır.
+  
+
+
 Circle ve Square objectlerimiz var ve bu objectler bir parent shape objectden method ve property-leri alirlar.
 Ve bu bir inheritance-dir.
 Bu inheritance-ni js objectleri vasitesi ile nece ede bilerik.
@@ -8,7 +16,7 @@ Bu inheritance-ni js objectleri vasitesi ile nece ede bilerik.
 
 We implemente the common methods in the Shape object. We refer to the Shape object as the Prototype of the Circle. Prototype is essencial the parent of another object
 
-Every object in JavaScript has a parent object, when we create a object, if we inspect that object in tha console we can see the following:
+Every object in JavaScript has a parent (prototype) object, when we create a object, if we inspect that object in tha console we can see the following:
 
 ```javascript
 let x = {};
@@ -42,8 +50,3 @@ When we call a method in an object JavaScript will start looking for that method
 
 A prototype is just a regular object in memory.
 
-
-### Bu dersde geldikde çox qısa xülasə ilə izah:
-- Prototype sadece bir parentdir.
-- Prototype sadece normal bir objectdir. Bunda xüsusi bir şey yoxdur.
-  Hər bir objectin bir prototype(parent)-i var. (Root object-dən başqa)
