@@ -1,12 +1,26 @@
 02- Prototypes and Prototypical Inheritance
+Maksimum çalış ətraflı hər şeyi yaz, izahlar uzun olsa belə narahat olma yaz.
 
 ### Bu dersde geldikde çox qısa xülasə ilə izah:
+- Ilk once bilmeyin lazimdirki, bu dersde sadece __proto__ nun ne oldugunu deyir. nece inheritance de istifade edersen onu demir 
+  ONA GORE COX AYDIN OLMUR.
+
 - Prototype sadece bir parentdir.
 - Prototype sadece normal bir objectdir. Bunda xüsusi bir şey yoxdur.
-  Hər bir objectin bir prototype(parent)-i var (Root object-dən başqa).
-  Ve  Bu object prototipində tapdığımız bütün üzvləri miras alır.
+  Hər bir objectin bir prototype-i yani parent-i var (Root object-dən başqa).
+  Ve Bu object, prototipində tapdığımız bütün üzvləri miras alır veya uzvlere sahibdir.
+  Bes bu prototip nedir haradan cixdi? - dedik axi her bir objectin prototypi ve ya parenti var.
+- Ve bu prototype icinde ceshidli methodlar var. 
+- Burada eslinde dusuhune bilerikki bir object yaratdiqda onun __proto__-su olur.
+  Ve biz bir shape (parent) object yaradiriq ve bunun __proto__-sunda butun membersleri yaradiriq. 
+  Indi biz bashqa child X objectini yaratdiqda isteyirikki bu object shape objectin butun memberslerine 
+  sahib olsun ve bunun ucun biz bu objecti shape objectinden yaradiriq. Ve X objectini __proto__-sunda da göre bilersen
+  .... buradakilari sonra yaza bilersen.
+- X ve Y -> objectBase ( Prototype ) - yaniki x ve y-in prototype-i eynidir.
+- Circel ve Square -> shapeBase ( prototype ) - yaniki Circel ve Square 
   
-
+- ek bilgi, shape objectinin protosu var hansiki biz orada metodlar yaratdiq ama diger child X objectinin de protosu var.
+  Dediyimiz kimi her bir objectin proto-su var.
 
 Circle ve Square objectlerimiz var ve bu objectler bir parent shape objectden method ve property-leri alirlar.
 Ve bu bir inheritance-dir.
