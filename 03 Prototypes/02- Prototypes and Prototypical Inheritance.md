@@ -17,7 +17,8 @@ Maksimum çalış ətraflı hər şeyi yaz, izahlar uzun olsa belə narahat olma
   sahib olsun ve bunun ucun biz bu objecti shape objectinden yaradiriq. Ve X objectini __proto__-sunda da göre bilersen
   .... buradakilari sonra yaza bilersen.
 - X ve Y -> objectBase ( Prototype ) - yaniki x ve y-in prototype-i eynidir.
-- Circel ve Square -> shapeBase ( prototype ) - yaniki Circel ve Square-in prototype-i shapeBase-dir. 
+- Circel ve Square -> shapeBase ( prototype ) - yaniki Circel ve Square-in prototype-i shapeBase-in protosu ile eynidir. 
+  YANIKI ShapeBase object yaradildi proto sunde metod teyin edildi ve new ShapeBase deyilerek Circle ve Square yaradildi.
   
 - ek bilgi, shape objectinin protosu var hansiki biz orada metodlar yaratdiq ama diger child X objectinin de protosu var.
   Dediyimiz kimi her bir objectin proto-su var.
