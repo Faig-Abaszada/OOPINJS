@@ -1,4 +1,7 @@
 // 08- Avoid Extending the Built-in Objects
+// Guide
+// JS icinde gomulmush default objectleri modify etmemek lazimdir, Cunki bir
+// Library istifade ederik ve burada bashqa kimse bu default metodunu istifade etmish olar.
 
 /*
 Although is quite simply to modify the prototype of an object we should avoid modifying built-in objects
