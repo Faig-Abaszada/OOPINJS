@@ -1,4 +1,5 @@
 // 07- Iterating Instance and Prototype Members
+// Guide
 
 // We have the Circle Constructor Function with 2 instance members
 // 1 - Radius property
@@ -19,9 +20,12 @@ Circle.prototype.draw = function () {
 
 const c1 = new Circle(1);
 
+// Returns instance members
 // With Object.keys() method we can iterate over the instance members
-console.log(Object.keys(c1)); // [ 'radius', 'move' ]
+console.log(Object.keys(c1));
+// [ 'radius', 'move' ]
 
+// Returns all members (instance + prototype)
 // With the for...in loop we can iterate over all members, both Instance Members and Prototype Members
 for (let key in c1) console.log(key);
 // It will log:
