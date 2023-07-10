@@ -1,10 +1,9 @@
 // 06- Prototype vs Instance Members
 /*
-  Her sheyin anlamlandigi ders budur. Prototypical inheritance-nin lazim oldugu vacib meqam.
+  Her sheyin anlamlandigi ders budur. Duplicating qorunmasi:) Prototypical inheritance-nin lazim oldugu vacib meqam.
   Beleki  birden cox object yaratdiqda ve bu objectlerin eyni metodlara sahib olmasi
   lazimdirsa bu halda new Circle desek eger  c1 ve c2 objectlerinin her birinde
   bu membersler olacaq ve bu o demekdirki bu memberler object syalari qeder tekrarlanmishdir.
-
 */
 
 function Circle(radius) {
