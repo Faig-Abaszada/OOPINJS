@@ -2,6 +2,7 @@
 // Guide
 // JS icinde gomulmush default objectleri modify etmemek lazimdir, Cunki bir
 // Library istifade ederik ve burada bashqa kimse bu default metodunu istifade etmish olar.
+// Don;t modify objects you don't know!
 
 /*
 Although is quite simply to modify the prototype of an object we should avoid modifying built-in objects
