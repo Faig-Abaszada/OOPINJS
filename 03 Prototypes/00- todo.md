@@ -21,11 +21,12 @@ Belelikle bacardiqca suretle videolardakilari oyrenib bu fayllara tokmek ve bura
 3. Multilevel Inheritance? (Qavram)
    - So we have myArray, that we created, and it derives from arrayBase and arrayBase derives from objectBase.
      This is whats it's called multilevel inheritance.
-4. Property Descriptors? (Guide)
+4. Property Descriptors(Tanımlayıcılar)? (Guide)
    - Eger biz objecti iterate etsek icindekileri consola yazsaq bu consola yazilanlarin(objectin icindeki itemlerin) protosunun olmadigini gorerik.
-     Səbəb odur ki, bizim property-ler default olaraq əlavə olunmuş atributlara malikdir. ve bunu bizde oz objectlerimizde ede bilerik (defineProperty ile)
+     Səbəb odur ki, bizim property-ler default olaraq əlavə olunmuş atributlara malikdir. 
+     Bu ders bunu demek isteyir - Bunu biz de oz objectlerimizde ede bilerik (defineProperty ile)
 5. Constructor Prototypes?
    - j
 6. Prototype vs Instance Members?
 7. Iterating Instance and Prototype Members?
-8. Avoid Extending the Built-in Objects?
+8. Avoid Extending the Built-in Objects? (Guide)
