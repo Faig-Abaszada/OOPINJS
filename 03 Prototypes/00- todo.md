@@ -2,6 +2,7 @@ Maksimum çalış ətraflı hər şeyi yaz, izahlar uzun olsa belə narahat olma
 Bu fayllara tekrar ucun geldikde, oxuyub ve ya code review edib her sheyi basha dushmelisen , 
 cunki videoya baxib yeniden basha dushmek cetindir ve vaxt aparir.
 Hemde burada tekrar etmek hem eylenceli hem daha cox shey oyrene bilirsen cunki oz dilinde yazmisan.
+Belelikle bacardiqca suretle videolardakilari oyrenib bu fayllara tokmek ve burada tekrara davam etmek lazimdir.
 
 - [ ] Prototypes - bu bolumu bashdan sona get oyren ve yaz. 
       Qaranliq noqtelere cox takilma cunki tekrar edeceksen.
