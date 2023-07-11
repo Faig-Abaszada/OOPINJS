@@ -26,7 +26,7 @@ Belelikle bacardiqca suretle videolardakilari oyrenib bu fayllara tokmek ve bura
      Səbəb odur ki, bizim property-ler default olaraq əlavə olunmuş atributlara malikdir. 
      Bu ders bunu demek isteyir - Bunu biz de oz objectlerimizde ede bilerik (defineProperty ile)
 5. Constructor Prototypes?
-   - j
+   - getPrototypeOf - prototipi almagin duzgun yolu.
 6. Prototype vs Instance Members?
 7. Iterating Instance and Prototype Members?
 8. Avoid Extending the Built-in Objects? (Guide)

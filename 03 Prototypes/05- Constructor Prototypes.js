@@ -7,6 +7,14 @@ Note that the value of this property is a reference to the function itself, not 
 The value is only read-only for primitive values such as 1, true, and "test".
 */
 
+/*
+So you have learned that every object in JavaScript except the root object has a prototype or a parent. Now the proper way to
+get the prototype of an object, is using Object.getPrototype
+*/
+let myObj = {};
+Object.getPrototypeOf(myObj);  // obyektin prototipini almagin duzgun yolu budur.
+// myObj.__proto__ (parent of myObj) , bu yuxaridaki ile eyni sheydir
+
 let objectLiteral = {};
 console.log(Object.getPrototypeOf(objectLiteral))
 console.log(objectLiteral.constructor === Object); // true
@@ -44,3 +52,5 @@ console.log(myCircle.constructor); // This will return the circle constructor fu
   this.radius = radius;
 }
 */
+
+
