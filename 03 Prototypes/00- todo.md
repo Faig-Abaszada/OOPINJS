@@ -4,6 +4,9 @@ cunki videoya baxib yeniden basha dushmek cetindir ve vaxt aparir.
 Hemde burada tekrar etmek hem eylenceli hem daha cox shey oyrene bilirsen cunki oz dilinde yazmisan.
 Belelikle bacardiqca suretle videolardakilari oyrenib bu fayllara tokmek ve burada tekrara davam etmek lazimdir.
 
+Saatlarla burada yazmaqdansa sadece kursun materiali ile ve defter qelem ile tam basha duhdukden sonra defterdekileri bura kecirtmek 
+daha mentiqli ve daha tez basha geler cunki daha tez basha dushursen. Bu usulla bu ders neden behs edir daha tez basha dushersen. 
+
 - [ ] Prototypes - bu bolumu bashdan sona get oyren ve yaz. 
       Qaranliq noqtelere cox takilma cunki tekrar edeceksen.
 - [ ] Prototypes - bu bolumu bashdan sona tekrar et 
@@ -27,6 +30,8 @@ Belelikle bacardiqca suretle videolardakilari oyrenib bu fayllara tokmek ve bura
      Bu ders bunu demek isteyir - Bunu biz de oz objectlerimizde ede bilerik (defineProperty ile)
 5. Constructor Prototypes?
    - getPrototypeOf - prototipi almagin duzgun yolu.
+   - Objecti yaradan constructolarinda prototipi olur ve bu prototip bu constructor terefinden yaradilan
+     butun objectlerin parenti olur (prototypi olur)
 6. Prototype vs Instance Members?
 7. Iterating Instance and Prototype Members?
 8. Avoid Extending the Built-in Objects? (Guide)
