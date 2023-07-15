@@ -30,7 +30,7 @@ Square.prototype.square = function () {
 Circle.prototype = Object.create(Shape.prototype);
 Square.prototype = Object.create(Shape.prototype);
 
-// If we don't reset the constructor the constructor for the Circle and Square will be the Shape constructor.
+// If we don't reset the constructor for the Circle and Square will be the Shape constructor.
 console.log(Circle.prototype.constructor); // It returns the Shape constructor function
 /*
 ƒ Shape() {
