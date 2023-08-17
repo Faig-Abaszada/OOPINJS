@@ -35,3 +35,41 @@ console.log(Object.keys(person)); // This will return an empty array, because we
 delete person.name; // With configurable set to false we can not delete the name property
 
 // By default this properties descriptors are set to true.
+
+
+
+
+// MY SOLUTION
+
+// Object.defineProperty(Shape.prototype, 'duplicate', {
+//   writable: true,
+//   enumerable: false,
+//   configurable: true,
+//   value: function() {
+//     console.log("duplicate");
+//   }
+// });
+
+function Shape() {
+  console.log("this is a shape");
+}
+Shape.prototype.duplicate = function () {
+  console.log("duplicate");
+};
+
+
+function Circle(radius) {
+  this.radius = radius;
+}
+Circle.prototype.draw = function () {
+  console.log("draw circle");
+};
+
+
+
+Circle.prototype = Object.create(Shape.prototype);
+
+const myCircle = new Circle(1);
+myCircle.duplicate();
+
+
