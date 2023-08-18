@@ -1,22 +1,27 @@
-function Circle(radius) {
+function Shape(color) {
+  this.color = color; // => "this = Circle"- this Cirlce olduguna gore : Cirlce.color = color - demish oluruq
+}
+Shape.prototype.duplicate = function () {
+  console.log('duplicate');
+}
+
+function Circle(radius, color) {
   this.radius = radius;
+  Shape.call(this, color); // => Shape icinde bax !
 }
+
+
+Circle.prototype = Object.create(Shape.prototype);
+Circle.prototype.constructor = Circle;
+// Circle.prototype = Object.create(Object.prototype); -> default Objectin prototipini goturur
+
 Circle.prototype.draw = function () {
-  console.log('draw');
-}
-Circle.prototype.toString = function () {
-  console.log('Our radius is: ', this.radius)
+  console.log('draw')
 }
 
-const c1 = new Circle(1);
-const c2 = new Circle(2);
+const s = new Shape('red');
+const c = new Circle(1, 'blue');
+console.log(s);
+console.log(c);
 
-// console.log(c1);
-// console.log(c2)
-// console.log(c1.toString())
-// console.log(Object.keys(c1))
-// for (let key in c1) {
-//   console.log(key);
-// }
-console.log(c1.hasOwnProperty('radius'));
-console.log(c1.hasOwnProperty('testPropNAme'));
+
