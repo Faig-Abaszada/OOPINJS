@@ -23,6 +23,7 @@ function Circle(radius, color) {
 
 extend(Shape, Circle); // Now we can call extend() with the Shape and Circle constructor functions to establish the relationship.
 
+// Extend etdikden sonra Circle-in prototipine method teyin etdik, cunki evvel etsen zaten extend zamani prototip resetlenecek!
 Circle.prototype.draw = function () {
   console.log("draw circle");
 };

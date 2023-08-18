@@ -65,6 +65,7 @@ Square.prototype.square = function () {
 // Here the Object.create(Shape.prototype) returns a object that inherits from shapeBase (Shape.prototype).
 // Then we assign it to the prototype of Circle and Square.
 Circle.prototype = Object.create(Shape.prototype);
+// Circle.prototype = Object.create(Object.prototype); -> Eger hec bir inheritance qurmasaq default budur eslinde ObjectBase-in prototipini goturur
 Square.prototype = Object.create(Shape.prototype);
 
 const myCircle = new Circle(1);
