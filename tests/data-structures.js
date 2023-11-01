@@ -20,3 +20,31 @@ let movies = [
   "19. Queer questions and ready replies : by S. Grant Oliphant (802)",
   "20. Dracula by Bram Stoker (734)"
 ];
+
+// var numJewelsInStones = function(jewels, stones) {
+//   const hashmap = new Map(); // key value listimiz, hansiki yalniz key ile elemente cata bilirik.
+//   let output = 0;
+//
+//   for(let i = 0; i < jewels.length; i++) {
+//     const jewel = jewels[i];
+//     hashmap.set(jewel, i);
+//   }
+//
+//   console.log(hashmap);
+//   console.log(hashmap);
+//
+//   for(let i =0; i < stones.length; i++) {
+//     const stone = stones[i];
+//     if(hashmap.has(stone)) output++;
+//   }
+//
+//   return output;
+//
+//
+//
+// };
+//
+// numJewelsInStones("aAaera", "aAAbbbb");
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr.toString().toLowerCase())
