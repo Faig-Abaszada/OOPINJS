@@ -8,12 +8,13 @@
 <script>
     console.log('first console ')
     // Bu synchronous oldugunu gosterir
-    for (let i = 0; i <= 1000000000; i++) {
-        if (i === 1000000000) {
-            console.log('second console')
-        }
-    }
-    // Burada ise promise istifade ederek asynchronous davranmasini temin edirik
+    // for (let i = 0; i <= 1000000000; i++) {
+    //     if (i === 1000000000) {
+    //         console.log('second console')
+    //     }
+    // }
+    // DOGRUDUR AMMA ISHLEMIR
+    // PROMISE WAY - Burada ise promise istifade ederek asynchronous davranmasini temin edirik
     // const asyncFunc = () => {
     //     return new Promise((resolve) => {
     //         for (let i = 0; i <= 1000000000; i++) {
@@ -25,6 +26,14 @@
     //     })
     // }
     // asyncFunc();
+    // SETTIMEOUT WAY
+    setTimeout(() => {
+        for (let i = 0; i <= 1000000000; i++) {
+            if (i === 1000000000) {
+                console.log('second console')
+            }
+        }
+    }, 0)
     console.log('third console')
 </script>
 </body>
